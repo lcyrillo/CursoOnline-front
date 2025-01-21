@@ -3,8 +3,8 @@ import { TipoUsuario } from "./tipoUsuario";
 export interface Usuario {
     id: number;
     email?: string;
-    senhaHash?: Base64URLString;
-    senhaSalt?: Base64URLString;
+    senhaHash?: BigInt64Array;
+    senhaSalt?: BigInt64Array;
     cpf?: string;
     idTipoUsuario: number;
     senhaProvisoria: string;
