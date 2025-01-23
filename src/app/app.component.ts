@@ -16,7 +16,7 @@ export class AppComponent {
   listaCursos: Curso[] | undefined;
 
   ngOnInit(): void {
-    this.getCursos();
+
   }
 
   getCursos(): void {

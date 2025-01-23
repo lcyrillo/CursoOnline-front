@@ -1,0 +1,21 @@
+<div id="container">
+    <div class="box-login">
+        <div class="box">
+            <h2>Curso Online</h2>
+
+            <form class="form-group" [formGroup]="registerForm" (ngSubmit)="submitForm()">
+                <input formControlName="email"
+                    type="email" name="email" id="email" placeholder="email">
+
+                <input formControlName="cpf"
+                    type="text" name="cpf" id="cpf" placeholder="cpf">
+                
+                <button type="submit">Registrar</button>
+            
+                <a href="#">
+                    <p>Fazer login</p>
+                </a>
+            </form> 
+        </div>
+    </div>
+</div>
